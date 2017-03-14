@@ -1,0 +1,20 @@
+{
+  "name": "alexacapital",
+  "version": "0.0.1",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components",
+    "bower_components",
+    "public/components",
+    "test",
+    "tests"
+  ],
+  "homepage": "https://github.com/CodeNChill/alexaCapital",
+  "authors": [
+    "David Diaz <indiandavy@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT"
+}
