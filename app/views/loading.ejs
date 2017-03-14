@@ -1,6 +1,6 @@
 <!--
-	File name: index.ejs
-	Description:  html file for index page of external API reference application
+	File name: loading.ejs
+	Description: template html file for loading page of external API reference application
 
 	Copyright 2016 Capital One Services, LLC
 	 
@@ -19,27 +19,15 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>Rewards APIs</title>
+		<title>Rewards Demo</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="css/style.css">
 	</head>
-	<body>
-		<div class="capitalone-logo">
-			<h1>
-				<img src="/img/capitalone-logo-2x-oasis.png" alt="Capital One" class="default-logo">
-			</h1>
-		</div>
-		<div id="body">
-			<div id="welcome">
-				<h2>Click below to access your rewards account information.</h2>
-			</div>
+	<body>			
+   		<div class="loading-image"></div>
 
-			<div>
-				<button id="login-button" type="submit" onclick="location.href='/auth'"></button>
-			</div>
-		</div>
 		<script type="text/javascript">
-		</script>
-		
+            window.location.href = "/accountSummary"
+        </script>
 	</body>
 </html>
