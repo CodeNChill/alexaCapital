@@ -33,8 +33,8 @@ var config = {
       name: 'rewards-ref-app-mvc'
     },
     port: 3000,
-    CLIENT_ID:'8955da598bcd4e42ae4de3bf79e0605d',
-    CLIENT_SECRET:'62bcb17543d005b1b84b1ee9f0e44e76',
+    CLIENT_ID:'clientid',
+    CLIENT_SECRET:'clientSecret',
     REDIRECT_URI:'http://localhost:3000/authredirect',  
     BASE_URI:'https://api-sandbox.capitalone.com',
     SESSION_SECRET: 'Code and Chill with Mike and the B Team!' //Change this to a random string
